@@ -15,4 +15,6 @@ set up `package.json` file with the code below:
 }
 ```
 
-Run `npm instal` in your terminal
+Run `npm install` in your terminal  
+#### Create `gruntfile.js` see my file
+Added `uglify` and `watch` and automatic reloading
