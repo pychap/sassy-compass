@@ -18,3 +18,7 @@ set up `package.json` file with the code below:
 Run `npm install` in your terminal  
 #### Create `gruntfile.js` see my file
 Added `uglify` and `watch` and automatic reloading
+Make sure my gems are all up to date, run `gem update system`. 
+Create `config.rb` file - see file.
+Did `gem install compass`
+Altered `gruntfile`, see file.
