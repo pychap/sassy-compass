@@ -20,5 +20,17 @@ Run `npm install` in your terminal
 Added `uglify` and `watch` and automatic reloading
 Make sure my gems are all up to date, run `gem update system`. 
 Create `config.rb` file - see file.
+Run `gem instally susy` - I hadn't done this, the CSS wasn't compiling.  
 Did `gem install compass`
 Altered `gruntfile`, see file.
+Great emmet tip! Type `meta:vp` to get the full viewport tag!!!  
+
+### SASS  
+`styles.scss` will have the imports, `base.scss` will contain basic SASS such as font information etc. The author recommends this setup:
+<ul>
+    <li>`_base.scss`</li>
+    <li>`_layout.scss`</li>
+    <li>`_mixins.scss`</li>
+    <li>`_modules.scss`</li>
+    <li>`_variables.scss`</li>
+</ul>

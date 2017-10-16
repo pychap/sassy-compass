@@ -1,5 +1,10 @@
-$fontcolor: #3b4348;
+// $fontcolor: #3b4348;
+@import "compass";
+@import "compass/reset";
+@import "susy";
 
-body {
-  color: $fontcolor;
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "modules";
