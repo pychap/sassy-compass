@@ -1,18 +1,15 @@
-<<<<<<< HEAD
 $fontcolor: #3b4348;
 
 body {
   color: $fontcolor;
 }
-=======
 // $fontcolor: #3b4348;
 @import "compass";
 @import "compass/reset";
-@import "susy";
+@import "susyone";
 
 @import "variables";
 @import "mixins";
 @import "base";
 @import "layout";
 @import "modules";
->>>>>>> 5e860be2842e9e0fd368ce69ef9ed081e3752e19
