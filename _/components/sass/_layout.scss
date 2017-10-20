@@ -17,11 +17,11 @@ $large      : 75em;
 .layout {
   @include container;
    padding: 3%;
-
+    // primary --------------------
    .primary {
     margin-top: .2em;
     @include at-breakpoint($medium){
-      @include span-columns(8,12);
+      @include span-columns(8 omega,12);
 
       #nextmeeting {
         @include border-radius(20px);
@@ -42,7 +42,16 @@ $large      : 75em;
       }
     }
    }
-
+ .secondary {
+  @include at-breakpoint($medium) {
+    @include span-columns(4 omega, 12);
+    font-size: 1.1rem;
+    h1 {
+      font-size: 1.8rem;
+      color: $orange;
+    }
+  }
+ }
 }
 
 // header ----------------------------------------
@@ -54,7 +63,27 @@ header {
     max-width: 500px;
     margin-bottom: 0;
   }
-}
+
+  .hero {
+    width: 100%;
+    @include at-breakpoint($medium);
+      position: relative;
+      display: block;
+      height: 450px;
+      @include background(linear-gradient(bottom left, rgba($darkerblue, .6), rgba($darkerblue, 0)), image-url('misc/helper.jpg'));
+      background-repeat: no-repeat;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      margin: 0 auto;
+
+      .branding {
+        position: absolute;
+        bottom: 0;
+      }
+  } // medium
+} //header
 
 // Navigation ----------------------------------------
 .navigation {
